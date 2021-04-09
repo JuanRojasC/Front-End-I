@@ -1,0 +1,53 @@
+#photo{
+    margin: auto;
+    display: block;
+    height: 200px;
+}
+
+h1{
+    background-color: #7799af;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    margin-bottom: 50px;
+}
+
+ul,dt{line-height: 25px;}
+div{margin-bottom: 15px;}
+dt{font-size: 18px;}
+
+
+h2{
+    text-align: left;
+    color: white;  
+    background-color: #7799af;
+}
+
+span.seccion{margin-left: 20px;}
+
+span.subtitulo{
+    font-weight: bold;
+    font-style: italic;
+}
+
+span.dato{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+span.año{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 25px;
+}
+
+footer{ 
+    background-color: #41a6eb;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icono{width: 1.1%;margin-top: 5px;}
