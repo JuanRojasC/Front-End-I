@@ -1,5 +1,0 @@
-# Front End I
-Actividades y proyectos de la clase de Front End I &lt;Digital House>
-
-Clase 3 (Maquetado en HTML) : https://juanrojasc.github.io/Front-End-I/Lemon%20Pie%201.0/
-Clase 4 (Mi Curriculum): https://juanrojasc.github.io/Front-End-I/Curriculum%20Vitae/
