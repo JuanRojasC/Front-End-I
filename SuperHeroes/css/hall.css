@@ -1,0 +1,70 @@
+@import url('variables.css');
+
+/*Cuerpo General*/
+#selection{
+    height: var(--hall);
+    width: 100%;
+}
+div.house{
+    float: left;
+}
+
+
+/*Boton Añadir*/
+.bottonmore{
+    position: fixed;
+    top: 31.4vw;
+    right: 2.08vw;
+    padding: 0.78vw;
+    border-radius: 50%;
+    background-color: var(--barratitulo);
+    color: white;
+    font-size: 1.56vw;
+    z-index: 999;
+}
+
+
+/* DC Superheroes*/
+div.housedc{
+    position: relative;
+    background-color: var(--dc);
+    width: 50%;
+    height: var(--hall);
+}
+img.imgheroesdc{
+    position: absolute;
+    left: 8vw;
+    top: 5.7vw;
+    height: 22.5vw;
+    width: 34vw;
+}
+img.logodc{
+    position: absolute;
+    top: 29vw;
+    left: 18.8vw;
+    height: 12.8vw;
+    width: 12.3vw;
+
+}
+
+/* MARVEL Superheroes*/
+div.housemarvel{
+    position: relative;
+    background-color: var(--marvel);
+    width: 50%;
+    height: var(--hall);
+}
+img.imgheroesmarvel{ /*1.75 width x 1 height*/
+    position: absolute;
+    left: 8.5vw;
+    top: 5.7vw;
+    height: 22vw;
+    width: 35vw;
+}
+img.logomarvel{ /*2.35 width x 1 heigth*/
+    position: absolute;
+    top: 30.8vw;
+    left: 14.5vw;
+    height: 8.6vw;
+    width: 21vw;
+}

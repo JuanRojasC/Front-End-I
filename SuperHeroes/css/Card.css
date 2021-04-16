@@ -1,0 +1,71 @@
+@import url('variables.css');
+
+
+/*Cuerpo*/
+div.card{
+    position: absolute;
+    margin-top: 4.2vw;
+    height: 31.25vw;
+    width: 20.8vw;
+    background-color: var(--dc);
+    border-radius: 3.48vw 3.48vw 0vw 0vw;
+    z-index: 100;
+}
+
+
+
+/*Header de la Carta*/
+.headercard{
+    height: 11.5vw;
+    width: 20.8vw;
+    background-color: black;
+    border-radius: 3.48vw 3.48vw 0vw 0vw;
+}
+.like{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    color: red;
+    font-size: 1.82vw;
+}
+img.ph{
+    position: absolute;
+    top: 7.59vw;
+    left: 6.51vw;
+    height: 7.81vw;
+    width: 7.81vw;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+
+
+/*Descripcion de la Carta*/
+div.description{
+    text-align: center;
+    padding: 4.68vw 1.5vw 1.3vw 1.5vw;
+    height: 19.75vw;
+    width: 20.8vw;
+    background-color: var(--textcard);
+    box-shadow: 0vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+}
+h2.heroname{
+    font-size: 1.56vw;
+    font-style: normal;
+    font-weight: normal;
+}
+p.infotext{
+    position: relative;
+    top: 0.6vw;
+    text-align: justify;
+    font-size: 0.93vw;
+}
+a.viewmore{
+    position: relative;
+    top: 3vw;
+    padding: 0.52vw 1.6vw 0.52vw 1.6vw;
+    border-radius: 0.36vw;
+    color: white;
+    font-size: 1.3vw;
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+:root{
+    /*Colores*/
+    --anuncios: #1CD1B0;
+    --barratitulo: #00669F;
+    --dc:  #0476f2;
+    --marvel: #f0131e;
+    --textcard: #F3F3F3;
+
+    /*Medidas*/
+    --hall: 42.5vw;
+    --seccion: 56vw;
+}

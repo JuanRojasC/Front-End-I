@@ -1,0 +1,59 @@
+@import url('variables.css');
+
+
+/*Seccion General*/
+section.marvelstudios{
+    position: relative;
+    height: var(--seccion);
+    background-image: url('../img/MARVEL\ LOGO.png');
+    background-size: 4vw 2vw;
+    /*border: solid 5px black;*/
+}
+img.imgmarvelstudios{
+    margin-top: 2.6vw;
+    margin-left: 34.35vw;
+    height: 9.8vw;
+    width: 31.3vw;
+}
+
+
+/*Flechas de Navegacion*/
+.arrowleftmarvel{
+    position: absolute;
+    top: 28.9vw;
+    left: 6.7vw;
+    color: var(--marvel);
+    font-size: 5.2vw;
+    z-index: 999;
+}
+
+.arrowrightmarvel{
+    position: absolute;
+    top: 28.9vw;
+    right: 6.7vw;
+    color: var(--marvel);
+    font-size: 5.2vw;
+}
+
+
+/*Boton ver mas*/
+a.viewmoremarvel{
+    background-color: var(--marvel);
+}
+
+
+/*Cartas*/
+/*Carta Batman*/
+div.ironman{
+    left: 14.25vw;
+}
+
+/*Carta Wonderwoman*/
+div.blackwidow{
+    left: 39.05vw;
+}
+
+/*Carta superman*/
+div.captainamerica{
+    right: 14.25vw;
+}

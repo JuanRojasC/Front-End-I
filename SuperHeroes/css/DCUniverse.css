@@ -1,0 +1,60 @@
+@import url('variables.css');
+
+
+/*Seccion General*/
+section.dcuniverse{
+    position: relative;
+    height: var(--seccion);
+    background-image: url('../img/bg-logo-dcuniverse.png');
+    background-size: 2vw 2vw;
+    /*border: solid 5px black;*/
+}
+img.imgdcuniverse{
+    margin-top: 2.6vw;
+    margin-left: 34.35vw;
+    height: 9.8vw;
+    width: 31.3vw;
+}
+
+
+/*Flechas de Navegacion*/
+.arrowleftdc{
+    position: absolute;
+    top: 28.9vw;
+    left: 6.7vw;
+    color: var(--dc);
+    font-size: 5.2vw;
+    z-index: 999;
+}
+
+.arrowrightdc{
+    position: absolute;
+    top: 28.9vw;
+    right: 6.7vw;
+    color: var(--dc);
+    font-size: 5.2vw;
+}
+
+
+/*Boton ver mas*/
+a.viewmoredc{
+    background-color: var(--dc);
+}
+
+
+/*Cartas*/
+/*Carta Batman*/
+div.batman{
+    left: 14.25vw;
+}
+
+/*Carta Wonderwoman*/
+div.wonderwoman{
+    left: 39.05vw;
+}
+
+/*Carta superman*/
+div.superman{
+    right: 14.25vw;
+}
+
