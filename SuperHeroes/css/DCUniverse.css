@@ -4,16 +4,15 @@
 /*Seccion General*/
 section.dcuniverse{
     position: relative;
-    height: var(--seccion);
+    text-align: center;
     background-image: url('../img/bg-logo-dcuniverse.png');
     background-size: 2vw 2vw;
-    /*border: solid 5px black;*/
 }
+
+/*Imagen de Titulo*/
 img.imgdcuniverse{
-    margin-top: 2.6vw;
-    margin-left: 34.35vw;
-    height: 9.8vw;
-    width: 31.3vw;
+    margin-top: 6.6vw;
+    margin-bottom: 3vw;
 }
 
 
@@ -45,16 +44,15 @@ a.viewmoredc{
 /*Cartas*/
 /*Carta Batman*/
 div.batman{
-    left: 14.25vw;
+    margin-right: 3vw;
 }
 
 /*Carta Wonderwoman*/
 div.wonderwoman{
-    left: 39.05vw;
+    margin-right: 3vw;
 }
 
 /*Carta superman*/
 div.superman{
-    right: 14.25vw;
+    margin-right: 0vw;
 }
-

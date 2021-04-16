@@ -20,7 +20,7 @@ div.house{
     background-color: var(--barratitulo);
     color: white;
     font-size: 1.56vw;
-    z-index: 999;
+    z-index: 1000;
 }
 
 

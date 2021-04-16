@@ -4,16 +4,14 @@
 /*Seccion General*/
 section.marvelstudios{
     position: relative;
-    height: var(--seccion);
+    text-align: center;
     background-image: url('../img/MARVEL\ LOGO.png');
     background-size: 4vw 2vw;
     /*border: solid 5px black;*/
 }
 img.imgmarvelstudios{
-    margin-top: 2.6vw;
-    margin-left: 34.35vw;
-    height: 9.8vw;
-    width: 31.3vw;
+    margin-top: 6.6vw;
+    margin-bottom: 3.5vw;
 }
 
 
@@ -43,17 +41,17 @@ a.viewmoremarvel{
 
 
 /*Cartas*/
-/*Carta Batman*/
+/*Carta IronMan*/
 div.ironman{
-    left: 14.25vw;
+    margin-right: 3vw;
 }
 
-/*Carta Wonderwoman*/
+/*Carta BlackWidow*/
 div.blackwidow{
-    left: 39.05vw;
+    margin-right: 3vw;
 }
 
-/*Carta superman*/
+/*Carta Captain America*/
 div.captainamerica{
-    right: 14.25vw;
+    margin-right: 0vw;
 }

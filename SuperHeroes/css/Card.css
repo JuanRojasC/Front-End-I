@@ -3,10 +3,11 @@
 
 /*Cuerpo*/
 div.card{
-    position: absolute;
-    margin-top: 4.2vw;
-    height: 31.25vw;
+    position: relative;
     width: 20.8vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5vw;
     background-color: var(--dc);
     border-radius: 3.48vw 3.48vw 0vw 0vw;
     z-index: 100;
@@ -55,17 +56,20 @@ h2.heroname{
     font-weight: normal;
 }
 p.infotext{
-    position: relative;
-    top: 0.6vw;
+    margin-top: 1vw;
     text-align: justify;
     font-size: 0.93vw;
 }
 a.viewmore{
-    position: relative;
-    top: 3vw;
     padding: 0.52vw 1.6vw 0.52vw 1.6vw;
     border-radius: 0.36vw;
     color: white;
     font-size: 1.3vw;
     text-decoration: none;
 }
+
+div.viewmore{
+    margin-top: 50px;
+}
+
+
