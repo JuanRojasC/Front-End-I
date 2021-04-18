@@ -1,0 +1,51 @@
+@import url('variables.css');
+
+
+/*Cuerpo De la Seccion*/
+section.pagelogin{
+    width: 100%;
+    height: 100%;
+}
+
+/*Barra de Navegacion*/
+span.optionsinsignup{
+    position: absolute;
+    right: var(--optionsnavbarmarginright);
+}
+a.navbarsignup{
+    margin-inline: var(--optionsnavbar);
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+/*Formulario de Registro*/
+div.formulariosignup{
+    width: 35vw;
+}
+
+/*Bloques para entrada de datos*/
+.inputnamerg, .inputemailrg, .inputpasswordrg{
+    margin-bottom: 1vw;
+}
+
+/*Botones de Opciones Enviar/Cancelar*/
+input.inputoptionrg{
+    width: 20%;
+    margin-inline: 0.5vw;
+    margin-top: 2vw;
+    padding: 0vw;
+    border-radius: 1.2vw;
+    background-color: var(--anuncios);
+}
+input.inputresetrg{
+    background-color: grey;
+}
+
+/*Texto iniciar sesion*/
+.invitetologin{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-decoration: none;
+    font-size: 0.85vw;
+}

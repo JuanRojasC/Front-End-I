@@ -1,0 +1,45 @@
+@import url('variables.css');
+
+
+/*Cuerpo De la Seccion*/
+section.pagelogin{
+    width: 100%;
+    height: 100%;
+}
+
+/*Barra de Navegacion*/
+span.optionsinlogin{
+    position: absolute;
+    right: var(--optionsnavbarmarginright);
+}
+a.navbarlogin{
+    margin-inline: var(--optionsnavbar);
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+/*Formulario de Iniciar Sesion*/
+div.formulariologin{
+    width: 30vw;
+}
+
+/*Bloques de Usuario y Contraseña*/
+div.inputpasswordlg{/*Bloque ingreso de contraseña*/
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+/*Bloque Boton Entrar-Send*/
+input.inputsubmitlg{
+    width: 20%;
+    margin-bottom: 1vw;
+    background-color: var(--anuncios)
+}
+
+/*Texto Invitacion a crear cuenta*/
+.invitetocreateaccount{
+    margin-bottom: 1vw;
+    text-decoration: none;
+    font-size: 0.85vw;
+}

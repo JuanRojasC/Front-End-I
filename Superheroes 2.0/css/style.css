@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url('variables.css');
+@import url('header.css');
+@import url('hall.css');
+@import url('Card.css');
+@import url('DCUniverse.css');
+@import url('MVUniverse.css');
+@import url('footer.css');
+@import url('formulario.css');
+@import url('ingreso.css');
+@import url('registro.css');
+@import url('contacto.css');
+@import url('superheropage.css');
+@import url('batmanpage.css');
+@import url('wonderwomanpage.css');
+@import url('supermanpage.css');
+@import url('ironmanpage.css');
+@import url('blackwidowpage.css');
+@import url('captainamericapage.css');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: "captainamerica";
+    src: url("../american-captain-font/American\ Captain.ttf");
+  }
+

@@ -1,0 +1,40 @@
+@import url('variables.css');
+
+
+/*Cuerpo General del Formulario*/
+div.formulario{
+    position: absolute;
+    width: 30vw;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -45%);
+    text-align: center;
+    background-color: var(--barratitulo);
+    border-radius: 1.2vw;
+}
+
+/*Titulo del Formulario*/
+h2.titleform{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.75vw;
+    color: yellow;
+    -webkit-text-stroke: 0.1vw red;
+}
+
+/*Bloques de entrada de informacion a nivel General*/
+input, select, textarea{
+    height: 2.7vw;
+    width: 80%;
+    padding: 0vw 1vw 0vw 1vw;
+    font-size: 1vw;
+    border: none;
+    border-radius: 1.2vw;
+}
+textarea{
+    resize: none;
+    text-align: justify;
+}
+

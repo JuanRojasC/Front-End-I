@@ -1,0 +1,38 @@
+@import url('variables.css');
+
+/*Barra de anuncios*/
+div#adcaptainamerica{
+    background-color: #C31D10;
+}
+
+/*Header*/
+header.headercaptainamerica{
+    background-color: #162CA2;
+}
+P#txtcaptainamerica{
+    font-family: 'captainamerica';
+    letter-spacing: 0.2vw;
+    color: white;
+    -webkit-text-stroke: 0.09vw ;
+}
+
+/*Imagen de Fondo*/
+section.pagecaptainamerica{
+    background-image: url('../img/bg-pagecaptainamerica.jpg');
+}
+
+/*Color de fondo de las armas del heroe*/
+img.captainamericawp{
+    background-color: #C31D10;
+    border: solid 0.3vw #162CA2;
+}
+
+/*Color de los botones de la pagina*/
+i.captainamericabotton{
+    color: #162CA2;
+}
+
+/*Footre de Wonderwoman*/
+footer.captainamericaft{
+    background-color: #162CA2;
+}

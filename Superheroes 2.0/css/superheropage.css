@@ -1,0 +1,80 @@
+@import url('variables.css');
+
+/*Barra de Anuncios*/
+div.advertisement{
+    display: flex;
+    align-items: center;
+    background-color: var(--anuncios);
+    height: 1.6vw;
+    z-index: 999;
+}
+
+/*Cuerpo de la Seccion General*/
+section.sectionhero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    position: absolute;
+    top: 8.2vw;
+    bottom: 2.6vw;
+    width: 100%;
+    height: calc(100vh - 8.2vw - 2.6vw);
+}
+
+/*Cuerpo de la Tarjeta*/
+div.completecard{
+    display: inline-block;
+    margin-top: 4vw;
+    width: 35vw;
+    background-color: var(--textcard);
+    border-radius: 1.2vw;
+}
+
+/*Imagen del superheroe*/
+img.perfilimg{
+    margin-top: -4vw;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+
+/*Titulo del heroe*/
+h2.titlehero{
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*Informacion y descripcion del superheroe*/
+p.completeheroinfo{
+    font-size: 0.85vw;
+    padding: 0vw 2.5vw 0vw 2.5vw; 
+    text-align: justify;
+}
+
+/*Armas usados por el heroe*/
+div.weapons{
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+}
+img.weaponhero{
+    height: var(--weaponsy);
+    width: var(--weaponsx);
+    padding: 0.7vw;
+    margin-inline: 1vw;
+    border-radius: 50%;
+}
+
+/*Botones*/
+/*Like*/
+i.backhome, i.herolike, i.pageshare{
+    font-size: 2vw;
+    margin-inline: 0.5vw;
+}
+div.pagebottons{
+    margin-bottom: 1vw;
+}

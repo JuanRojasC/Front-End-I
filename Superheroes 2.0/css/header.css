@@ -1,0 +1,59 @@
+@import url('variables.css');
+
+
+/*Barra de Anuncios*/
+#advertisement{
+    display: flex;
+    align-items: center;
+    background-color: var(--anuncios);
+    height: 1.6vw;
+    z-index: 999;
+}
+
+#sale{
+    display: inline;
+    padding-left: 0.8vw;
+    word-spacing: 0.05vw;
+    font-size: 0.8vw;
+}
+
+/*Barra de Titulo*/
+h1{visibility: hidden;position: absolute;}
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: var(--barratitulo);
+    height: 6.6vw;
+    padding: 0.8vw;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 999;
+}
+
+.titleimage{
+    max-height: 5vw;
+    min-width: 1.6vw;
+}
+
+.titletext{
+    margin-left: 0.4vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+    font-size: 2.6vw;
+    -webkit-text-stroke: 0.07vw red;
+}
+
+
+/*Barra de Navegacion*/
+span.options{
+    position: absolute;
+    right: var(--optionsnavbarmarginright);
+}
+a.navbar{
+    margin-inline: var(--optionsnavbar);
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+}

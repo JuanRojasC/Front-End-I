@@ -1,0 +1,38 @@
+@import url('variables.css');
+
+/*Barra de anuncios*/
+div#adblackwidow{
+    background-color: #7A1F1E;
+}
+
+/*Header*/
+header.headerblackwidow{
+    background-color:#000000;
+}
+P#txtblackwidow{
+    font-family: 'Roboto';
+    color: #7A1F1E;
+    font-weight: bold;
+    -webkit-text-stroke: 0.09vw #7A1F1E;
+}
+
+/*Imagen de Fondo*/
+section.pageblackwidow{
+    background-image: url('../img/bg-pageblackwidow.jpg');
+}
+
+/*Color de fondo de las armas del heroe*/
+img.blackwidowwp{
+    background-color: #7A1F1E;
+    border: solid 0.3vw#000000;
+}
+
+/*Color de los botones de la pagina*/
+i.blackwidowbotton{
+    color:#000000;
+}
+
+/*Footre de Wonderwoman*/
+footer.blackwidowft{
+    background-color:#000000;
+}

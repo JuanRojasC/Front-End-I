@@ -1,0 +1,37 @@
+@import url('variables.css');
+
+/*Barra de anuncios*/
+div#adsuperman{
+    background-color: #f11712;
+}
+
+/*Header*/
+header.headersuperman{
+    background-color:#0099f7;
+}
+P#txtsuperman{
+    color: #f11712;
+    font-weight: bold;
+    -webkit-text-stroke: 0.09vw yellow;
+}
+
+/*Imagen de Fondo*/
+section.pagesuperman{
+    background-image: url('../img/bg-pagesuperman.jpg');
+}
+
+/*Color de fondo de las armas del heroe*/
+img.supermanwp{
+    background-color: #f11712;
+    border: solid 0.3vw#0099f7;
+}
+
+/*Color de los botones de la pagina*/
+i.supermanbotton{
+    color:#0099f7;
+}
+
+/*Footre de Wonderwoman*/
+footer.supermanft{
+    background-color:#0099f7;
+}
