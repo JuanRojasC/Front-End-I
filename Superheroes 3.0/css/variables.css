@@ -1,0 +1,20 @@
+:root{
+    /*Colores*/
+    --anuncios: #1CD1B0;
+    --barratitulo: #00669F;
+    --dc:  #0476f2;
+    --marvel: #f0131e;
+    --textcard: #F3F3F3;
+    --batman: #7F8086;
+    --inputselect:rgba(23, 255, 213, 0.7);
+    --inputcorrect: rgb(78, 255, 46, 1);
+
+    /*Medidas*/
+    --hall: 42.5vw;
+    --seccion: 56vw;
+    --optionsnavbar: 0.8vw;
+    --optionsnavbarmarginright: 2.2vw;
+    --weaponsy: 4vw;
+    --weaponsx: 4vw;
+    --optionsformadd: 1vw;
+}

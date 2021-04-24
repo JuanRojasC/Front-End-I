@@ -1,0 +1,154 @@
+@import url('variables.css');
+
+/*Cuerpo del formulario General*/
+main.formadd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 8.2vw - 2.6vw);
+}
+div.formadd{
+    width: 50vw;
+    height: min-content;
+    text-align: center;
+    background-color: var(--barratitulo);
+    border-radius: 1.2vw;
+}
+
+/*Titulo del formulario*/
+h2.formaddtitle{
+    margin:0vw;
+    margin-top: 1vw;
+    font-size: 3vw;
+}
+/*Parrafo de descripcion del formulario*/
+p.titleinfo{
+    width: 100%;
+    color: white;
+    font-size: 1vw;
+    font-weight: lighter;
+}
+
+
+
+/*Fieldsets en el formulario*/
+fieldset.formaddfieldleft{
+    float: left;
+    padding: 0vw 1vw 0vw 3.5vw;
+    width: 50%;
+    text-align: left;
+    border: none;
+}
+fieldset.formaddfieldrigth{
+    padding: 0vw 3.5vw 0vw 1vw;
+    width: 50%;
+    text-align: left;
+    border: none;
+}
+
+/*Bloque que incluye etiqueta label del campo y el campo input*/
+div.boxformadd{
+    margin-top: 1vw;
+}
+div.bfapowers{
+    margin-top: 0vw;
+}
+
+/*Divs De entrada de datos*/
+
+/*Nombre del Campo*/
+label.labeldatasadd{
+    display: block;
+    margin-bottom: 0.5vw;
+    color: white;
+    font-size: 1.1vw;
+}
+/*Box para entrada de datos*/
+input.inputdatasadd, select.inputdatasadd{
+    height: 3vw;
+    width: 100%;
+}
+/*Campo de descripcion*/
+textarea.inputdatasadd{
+    height: 11vw;
+    width: 100%;
+    padding-top: 1vw;
+}
+/* input[type='file']{
+    display: none;
+} */
+
+
+/*Check & Radio Boxes*/
+/*Check and Radio*/
+input.checkbox, input.radio{
+    height: var(--optionsformadd);
+    width: var(--optionsformadd);
+    padding: 0%;
+    border-radius: 0%;
+}
+/*Label name box*/
+label.labelcheckboxsaddtitle, label.labelradiosaddtitle{
+    margin-bottom: 0.4vw;
+}
+/*Label box or radio*/
+label.labelcheckboxsadd, label.labelradiosadd{
+    display: block;
+    margin-bottom: 0.4vw;
+    color: white;
+    font-size: 0.9vw;
+    font-weight: lighter;
+}
+/*Classcharacter % HouseComics Divs*/
+div.bfaclasscharacter, div.bfahouse{
+    display: inline-block;
+    margin-top: 0vw;
+}
+div.bfahouse{
+    margin-left: 2.5vw;
+}
+
+
+/*linea hr*/
+hr.hrformadd{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    height: 0.08vw;
+    width: 90%;
+    background-color: white;
+}
+
+
+/*Add botton*/
+input.inputsubmitsadd{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 30%;
+    background-color: var(--anuncios);
+}
+
+
+
+/*Pseudo Tags*/
+
+/*Pseudo clase, hover*/
+input.inputdatasadd:hover, textarea.inputdatasadd:hover, select.inputdatasadd:hover{
+    background-color: var(--inputselect);
+}
+input.inputsubmitsadd:hover{
+    background-color: yellow;
+    border: 0.2vw solid red;
+}
+
+/*Pseudo clase, valid*/
+input[required]:valid, textarea[required]:valid, select[required]:valid{
+    border: 0.2vw solid var(--inputcorrect);
+}
+
+/*Pseudo elemnt, before*/
+.required::before{
+    content: "*";
+    font-size: 1em;
+    color: red;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet"  href="css/style.css">
+    <title>Añadir Super</title>
+</head>
+<body>
+    <div id="advertisement"><p id="sale">20% de descuento en todos los productos!!!</p></div>
+    <header>
+        <h1>SuperHeroes Cards</h1>
+        <a href="index.html"><img src="img/title.png" alt="Word Superheroes" class="titleimage"></a>
+        <p class="titletext">Store</p>
+        <span class="options">
+            <a href="contacto.html" class="navbar"><i class="far fa-question-circle"></i> Contacto</a>
+            <a href="registro.html" class="navbar"><i class="fas fa-user-plus"></i> Registrarse</a>
+            <a href="ingreso.html" class="navbar"><i class="fas fa-user"></i> Ingresar</a>
+        </span>
+    </header>
+
+    <main class="formadd">
+        <div class="formadd">
+            <h2 class="formaddtitle titleform">Añadir tu Superheroe!</h3>
+            <p class="titleinfo">Agrega tu personaje favorito completando los datos</p>
+            <form action="" method="POST" class="formadd">
+
+                <!-- Fieldset left with inputs name - date - description -->
+                <fieldset class="formaddfieldleft">
+
+                    <!-- Name Box -->
+                    <div class="boxformadd bfaname">
+                        <label for="name" class="labeldatasadd required">Nombre</label>
+                        <input type="text" name="name" id="name" placeholder="Green Lantern" class="inputdatasadd" required>
+                    </div>
+
+                    <!-- Date Box -->
+                    <div class="boxformadd bfadate">
+                        <label for="fecha" class="labeldatasadd">Fecha</label>
+                        <input type="date" name="fecha" id="fecha" class="inputdatasadd">
+                    </div>
+
+                    <!-- Description Box -->
+                    <div class="boxformadd bfacomment">
+                        <label for="descripcion" class="labeldatasadd required">Descripcion</label>
+                        <textarea name="descripcion" id="descripcion" placeholder="min(200)--max(240)" class="inputdatasadd" minlength="200" maxlength="240" required></textarea>
+                    </div>
+                </fieldset>
+
+                <!-- Fieldset rigth with inputs specie - add photo - powers - classhero -->
+                <fieldset class="formaddfieldrigth">
+
+                    <!-- Speci Box -->
+                    <div class="boxformadd bfaspecie">
+                        <label for="specie" class="labeldatasadd required">Especie</label>
+                        <select name="specie" class="inputdatasadd" required>
+                            <option value="" hidden disabled selected>Seleccione una especie</option>
+                            <optgroup label="Humanos">
+                                <option value="Superhumano">Superhumano</option>
+                                <option value="Experimento">Humano Experimental</option>
+                            </optgroup>
+                            <optgroup label="Dioses">
+                                <option value="Semidio">Semidios</option>
+                                <option value="DiosGriego">Dios Griego</option>
+                                <option value="DiosNordico">Dios Nordico</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <!-- Add Photo -->
+                    <div class="boxformadd bfaphoto">
+                        <label for="addphoto" class="labeldatasadd required">Agregar Foto</label>
+                        <input type="file" name="addphoto" id="addphoto" class="inputdataphoto" required>
+                    </div>
+
+                    <!-- Checkbox Power -->
+                    <div class="boxformadd bfapowers">
+                        <label class="labeldatasadd labelcheckboxsaddtitle">Poderes</label>                        
+                        <label for="volar" class="labelcheckboxsadd"><input type="checkbox" name="poder" id="volar" class="checkbox inputcheckboxsadd"> Volar </label>                      
+                        <label for="superinteligencia" class="labelcheckboxsadd"><input type="checkbox" name="poder" id="superinteligencia" class="checkbox inputcheckboxsadd"> superinteligencia </label>   
+                        <label for="vistarayolaser" class="labelcheckboxsadd"><input type="checkbox" name="poder" id="vistarayolaser" class="checkbox inputcheckboxsadd"> Vista de rayo láser </label>
+                        <label for="millinario" class="labelcheckboxsadd"><input type="checkbox" name="poder" id="millonario" class="checkbox inputcheckboxsadd"> Millonario </label>
+                    </div>
+
+                    <!-- Hr Line -->
+                    <hr class="hrformadd">
+
+                    <!-- Radiobox Class Character -->
+                    <div class="boxformadd bfaclasscharacter">
+                        <label class="labeldatasadd labelradiosaddtitle">Tipo de Personaje</label>
+                        <label for="heroe" class="labelradiosadd"><input type="radio" name="rol" id="heroe" class="radio"> Héroe / Heroina</label>
+                        <label for="villano" class="labelradiosadd"><input type="radio" name="rol" id="villano" class="radio"> Villano / Villana </label>
+                    </div>
+
+                    <!-- Radiobox Comics House -->
+                    <div class="boxformadd bfahouse">
+                        <label for="house" class="labeldatasadd labelradiosaddtitle required">Casa</label>
+                        <label for="DC Comics" class="labelradiosadd"><input type="radio" name="house" id="DC Comics" class="radio"> DC Comics</label>
+                        <label for="MARVEL Comics" class="labelradiosadd"><input type="radio" name="house" id="MARVEL Comics" class="radio"> MARVEL Comics</label>
+                    </div>
+
+                </fieldset>
+
+                <!-- Add Boton -->
+                <input type="submit" value="Añadir" class="inputsubmitsadd">
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p class="copyrigth"><i class="far fa-copyright"></i> Todos los derechos reservados a Juan Rojas</p>
+    </footer>
+</body>
+</html>

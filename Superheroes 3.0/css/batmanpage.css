@@ -1,0 +1,51 @@
+@import url('variables.css');
+
+
+/*Barra de anuncio*/
+div.adbatman{
+    background-color: black;
+}
+p#sale{
+    color: white;
+}
+
+/*Header de Batman*/
+header.headerbatman{
+    background-color: var(--batman);
+}
+img#titlebatman{
+    height: 5vw;
+    width: 10vw;
+}
+P#txtbatman{
+    margin-left: 0.8vw;
+    letter-spacing: 0.3VW;
+    font-family: 'Roboto';
+    color: #FDE311;
+    font-size: 2vw;
+    font-weight: bold;
+    -webkit-text-stroke: 0.15vw black;
+}
+
+/*Imagen de Fondo*/
+section.pagebatman{
+    background-image: url('../img/bg-pagebatman.jpg');
+}
+
+/*Color de fondo de las armas del heroe*/
+img.batmanwp{
+    background-color: var(--batman);
+    border: solid 0.3vw #FDE311;
+}
+
+/*Color de los botones de la pagina*/
+i.batmanbotton{
+    color: black;
+    /*-webkit-text-stroke: 0.1vw #FDE311;*/
+}
+
+/*Footer*/
+footer.batmanft{
+    background-color: var(--batman);
+}
+

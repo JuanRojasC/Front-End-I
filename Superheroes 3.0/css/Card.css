@@ -1,0 +1,115 @@
+@import url('variables.css');
+
+
+/*Cuerpo*/
+div.card{
+    position: relative;
+    width: 20.8vw;
+    height: 31.25vw;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: var(--dc);
+    border-radius: 3.48vw 3.48vw 0vw 0vw;
+    z-index: 100;
+    margin: 0vw 2vw 5vw 2vw;
+}
+/*Cursor on Card*/
+div.card:hover{
+    width: 22.8vw;
+    height: 34.25vw;
+    margin: -1.5vw 1vw 3.5vw 1vw;
+}
+div.card:hover .headercard{
+    height: 12.604vw;
+}
+div.card:hover .like{
+    font-size: 1.99vw;
+}
+div.card:hover img.ph{
+    height: 8.55vw;
+    width: 8.55vw;
+    top: 8.31vw;
+    left: 7.13vw;
+}
+div.card:hover div.description{
+    padding: 5.12vw 1.64vw 1.42vw 1.64vw;
+    height: 21.64vw;
+}
+div.card:hover h2.heroname{
+    font-size: 1.7vw;
+}
+div.card:hover p.infotext{
+    margin-top: 1.096vw;
+    height: 7.67vw;
+    font-size: 1.01vw;
+}
+div.card:hover a.viewmore{
+    font-size: 1.42vw;
+}
+div.card:hover div.viewmore{
+    left: 7.2vw;
+    bottom: 2.52vw;
+}
+
+
+
+/*Header de la Carta*/
+.headercard{
+    height: 11.5vw;
+    width: 100%;
+    background-color: black;
+    border-radius: 3.48vw 3.48vw 0vw 0vw;
+}
+.like{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    color: red;
+    font-size: 1.82vw;
+}
+img.ph{
+    position: absolute;
+    top: 7.59vw;
+    left: 6.51vw;
+    height: 7.81vw;
+    width: 7.81vw;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+
+/*Descripcion de la Carta*/
+div.description{
+    text-align: center;
+    padding: 4.68vw 1.5vw 1.3vw 1.5vw;
+    height: 19.75vw;
+    width: 100%;
+    background-color: var(--textcard);
+    box-shadow: 0vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+}
+h2.heroname{
+    font-size: 1.56vw;
+    font-style: normal;
+    font-weight: normal;
+}
+p.infotext{
+    height: 7vw;
+    margin-top: 1vw;
+    text-align: justify;
+    font-size: 0.93vw;
+}
+a.viewmore{
+    padding: 0.52vw 1.6vw 0.52vw 1.6vw;
+    border-radius: 0.36vw;
+    color: white;
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+
+div.viewmore{
+    position: absolute;
+    bottom: 2.3vw;
+    left: 6.4vw;
+}
+
+

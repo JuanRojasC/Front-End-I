@@ -1,0 +1,32 @@
+@import url('variables.css');
+
+/*Barra de anuncios*/
+div#adwonderwoman{
+    background-color: #ecc466;
+}
+
+/*Header*/
+header.headerwonderwoman{
+    background-color: #83c8ea;
+}
+
+/*Imagen de Fondo*/
+section.pagewonderwoman{
+    background-image: url('../img/bg-pagewonderwoman.jpg');
+}
+
+/*Color de fondo de las armas del heroe*/
+img.wonderwomanwp{
+    background-color: #ecc466;
+    border: solid 0.3vw #83c8ea;
+}
+
+/*Color de los botones de la pagina*/
+i.wonderwomanbotton{
+    color: #83c8ea;
+}
+
+/*Footre de Wonderwoman*/
+footer.wonderwomanft{
+    background-color: #83c8ea;
+}

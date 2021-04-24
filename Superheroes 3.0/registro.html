@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet"  href="css/style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <h1>SuperHeroes Store Sign Up</h1>
+        <a href="index.html"><img src="img/title.png" alt="Word Superheroes" class="titleimage"></a>
+        <p class="titletext">Store</p>
+        <span class="optionsinsignup">
+            <a href="contacto.html" class="navbarsignup"><i class="far fa-question-circle"></i> Contacto</a>
+            <a href="ingreso.html" class="navbarsignup"><i class="fas fa-user"></i> Ingresar</a>
+        </span>
+    </header>
+
+    <main>
+        <section class="pagesignup">
+            <div class="formulariosignup formulario">
+                <h2 class="signuptext titleform">Sign Up</h2>
+                <form action="" method="POST">
+                    <div class="inputnamerg"><input type="text" name="name&lastname" id="name&lastname" placeholder="Nombre y Apellido" class="inputdatarg" required></div>
+                    <div class="inputemailrg"><input type="email" name="email" id="email" placeholder="Correo Electronico" class="inputdatarg" required></div>
+                    <div class="inputpasswordrg"><input type="password" name="password" id="password" placeholder="Contraseña" class="inputdatarg" required></div>
+                    <div class="inputcountryrg">
+                        <select name="country" class="inputdatarg" required>
+                            <option value="">Selecciona un Pais</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Panama">Panama</option>
+                            <option value="Uruguay">Uruguay</option>
+                        </select>
+                    </div>
+                    <div class="buttonsregister">
+                        <input type="reset" value="Cancelar" class="inputresetrg inputoptionrg">
+                        <input type="submit" value="Enviar" class="inputsubmitrg inputoptionrg">
+                    </div>
+                    <div class="invitetologin"><p>¿Ya tienes una cuenta?<a href="ingreso.html" class="invitetologin"> Inicia Sesión</a></p></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="extern">
+        <p class="copyrigth"><i class="far fa-copyright"></i> Todos los derechos reservados a Juan Rojas</p>
+    </footer>
+</body>
+</html>
