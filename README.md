@@ -6,4 +6,4 @@ Clase 5 (Mi Curriculum): https://juanrojasc.github.io/Front-End-I/Curriculum%20V
 Clase 6 (Lemon Pie & CSS): https://juanrojasc.github.io/Front-End-I/Lemon%20Pie%202.0/ <br>
 Clase 7 (Superheroes & Position): https://juanrojasc.github.io/Front-End-I/Superheroes%201.0/<br>
 Clase 9 (Superheroes & Form): https://juanrojasc.github.io/Front-End-I/Superheroes%202.0/<br>
-Clase 10-11 (Superheroes & Form II): https://juanrojasc.github.io/Front-End-I/Superheroes%203.0/<br>
+Clase 10-11 (Form II & Pseudoselectores): https://juanrojasc.github.io/Front-End-I/Superheroes%203.0/<br>
